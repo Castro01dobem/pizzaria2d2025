@@ -1,13 +1,13 @@
 import { useState} from "react"
 
 function App(){
-
   const [nome, setNome] = useState('Ronaldo')
 
-  return (
-    <div>
 
-      <h3>Pizzaria 2d</h3>
+  const Formulario = () => {
+    return (
+      <>
+      <h3>Formulário</h3>
 
       <input 
       className="nome"
@@ -16,10 +16,29 @@ function App(){
 
       <button
       className="botao"
-      onClick={()=>{alert(nome)}}>
+      onClick={()=>{
+        alert("O nome digitado foi " + nome)
+        }
+        }>
 
       CLIQUE AQUI
       </button>
+
+      </>
+    )
+  }
+
+
+
+  return (
+    <div>
+
+      <h3>Pizzaria 2d</h3>
+
+      <Formulario />
+      <Formulario />
+      <Formulario />
+     
 
     </div>
   )
