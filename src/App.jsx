@@ -3,7 +3,7 @@ import { useState} from "react"
 function App(){
   const [nome, setNome] = useState('Ronaldo')
 
-
+  
   const Formulario = () => {
     return (
       <>
