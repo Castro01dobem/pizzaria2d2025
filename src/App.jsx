@@ -1,7 +1,7 @@
 import { useState} from "react"
 
 function App(){
-  const [nome, setNome] = useState(nome)
+  const [nome, setNome] = useState('Guilherme')
 
   
   const Formulario = () => {
@@ -18,11 +18,11 @@ function App(){
       <button
       className="botao"
       onClick={()=>{
-        alert("O nome digitado foi " + nome)
+        alert("Olá" + nome + ", é um prazer ter você conosco!")
         }
         }>
 
-      CLIQUE AQUI
+      OK
       </button>
       
 
