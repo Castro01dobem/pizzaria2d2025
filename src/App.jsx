@@ -9,7 +9,7 @@ function App(){
       <>
       <h3>Formulário</h3>
 
-      <center>
+      
       <input 
       className="nome"
       onChange={(e)=>{setNome(e.target.value)}}
@@ -24,8 +24,8 @@ function App(){
 
       CLIQUE AQUI
       </button>
-      </center>
       
+
       </>
     )
   }
