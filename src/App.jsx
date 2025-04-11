@@ -1,7 +1,7 @@
 import { useState} from "react"
 
 function App(){
-  const [nome, setNome] = useState('Ronaldo')
+  const [nome, setNome] = useState(nome)
 
   
   const Formulario = () => {
@@ -40,8 +40,8 @@ function App(){
       <Formulario />   
 
     </div>
-
   )
+
 }
 
 export default App
