@@ -35,10 +35,7 @@ function App(){
 
       <h3>Pizzaria 2d</h3>
 
-      <Formulario />
-      <Formulario />
-      <Formulario />
-     
+      <Formulario />   
 
     </div>
   )
